@@ -51,13 +51,6 @@ Therefore we pre-train the classification models on the DeepFashion dataset that
 garment images. The networks are trained and validated on the dataset taken. The training results 
 show a great accuracy of the model with low error, loss and good f-score.
 
-### Dataset Link
-
-[Kaggle Dataset Big size 25 GB](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
-
-[Kaggle Dataset Small size 572 MB](https://www.kaggle.com/paramaggarwal/fashion-product-images-small)
-
-
 
 ## Installation ⬇️
 
@@ -68,23 +61,27 @@ pip install -r requirements.txt
 ~~~
 
 ## Usage
+First of all you need to download the datatset from this link and put all the [images][identifier] images into this images folder.
+ 
+## Dataset Link:
+[Kaggle Dataset Big size 25 GB](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
 
+[Kaggle Dataset Small size 572 MB](https://www.kaggle.com/paramaggarwal/fashion-product-images-small)
+[identifier]:[https://github.com/Datastar07/Fashion_Recommander_System/tree/main/images]
+
+For extracting the feature from the image you need to run this line:
+```bash
+python Extracting_feature.py
+```
+After generating the features.pkl file you need to run below line for showing the result on the web app,
 To run the web server, simply execute streamlit with the main recommender app:
 
 ```bash
 streamlit run Streamlit_app.py
 ```
+##Note: ⚠️
+In which when we are running the python Extracting_feature.py file it takes some time because our dataset have images arround 43000 so for that reason it took some time.
 
-## Built With
-
-- [OpenCV]() - Open Source Computer Vision and Machine Learning software library
-- [Tensorflow]() - TensorFlow is an end-to-end open source platform for machine learning.
-- [Tqdm]() - tqdm is a Python library that allows you to output a smart progress bar by wrapping around any iterable.
-- [streamlit]() - Streamlit is an open-source app framework for Machine Learning and Data Science teams. Create beautiful data apps in hours, not weeks.
-- [pandas]() - pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
-- [Pillow]() - PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
-- [scikit-learn]() - Scikit-learn is a free software machine learning library for the Python programming language.
-- [opencv-python]() - OpenCV is a huge open-source library for computer vision, machine learning, and image processing.
 
 ## Conclusion
 
