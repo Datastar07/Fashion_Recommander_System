@@ -6,7 +6,7 @@
 With an increase in the standard of living, peoples' attention gradually moved towards fashion that is concerned to be a popular aesthetic expression. Humans are inevitably drawn towards something that is visually more attractive. This tendency of humans has led to the development of the fashion industry over the course of time. However, given too many options of garments on the e-commerce websites, has presented new challenges to the customers in identifying their correct outfit. Thus, in this project, we proposed a personalized Fashion Recommender system that generates recommendations for the user based on an input given. Unlike the conventional systems that rely on the user's previous purchases and history, this project aims at using an image of a product given as input by the user to generate recommendations since many-a-time people see something that they are interested in and tend to look for products that are similar to that. We use neural networks to process the images from Fashion Product Images Dataset and the Nearest neighbour backed recommender to generate the final recommendations.
 
 ## Simple App UI Demo 🖼️
-![gif](https://github.com/Datastar07/Image-Processing-Project-Opencv/blob/main/Demo_gif.gif)
+![gif](https://github.com/Datastar07/Fashion_Recommander_System/blob/main/Demo/Fashion_Demo_GIF.gif)
 
 ## Related work 💼
 
@@ -23,7 +23,7 @@ considered in to generate recommendations.
 
 In this project, we propose a model that uses Convolutional Neural Network,this model name is RESNET-50 model which is pretrained model  and the Nearest neighbour backed recommender. As shown in the figure Initially, the neural networks are trained and then an inventory is selected for generating recommendations and a database is created for the items in inventory. The nearest neighbour’s algorithm is used to find the most relevant products based on the input image and recommendations are generated.
 
-![Alt text](https://github.com/sonu275981/Clothing-recommender-system/blob/2d64eecc5eec75f86d67bf15d59d87598b7f1a90/Demo/work-model.png?raw=true "Face-Recognition-Attendance-System")
+![Alt text](https://github.com/Datastar07/Fashion_Recommander_System/blob/main/Demo/work-model.png)
 
 ## Training the neural networks
 
@@ -32,7 +32,7 @@ from ResNet50. More additional layers are added in the last layers that replace 
 weights from ResNet50 in order to fine-tune the network model to serve the current issue. The figure
  shows the ResNet50 architecture.
 
-![Alt text](https://github.com/sonu275981/Clothing-recommender-system/blob/72528f2b4197cc5010227068ec72cd10f71214d4/Demo/resnet.png?raw=true "Face-Recognition-Attendance-System")
+![Alt text](https://github.com/Datastar07/Fashion_Recommander_System/blob/main/Demo/resnet.png)
 
 ## Getting the inventory
 
@@ -40,7 +40,7 @@ The images from Kaggle Fashion Product Images Dataset. The
 inventory is then run through the neural networks to classify and generate embeddings and the output 
 is then used to generate recommendations. The Figure shows a sample set of inventory data
 
-![Alt text](https://github.com/sonu275981/Clothing-recommender-system/blob/1e51a0d1db0e171e8d496524aa95a0098241fb1b/Demo/inventry.png?raw=true "Face-Recognition-Attendance-System")
+![Alt text](https://github.com/Datastar07/Fashion_Recommander_System/blob/main/Demo/inventry.png)
 
 
 
