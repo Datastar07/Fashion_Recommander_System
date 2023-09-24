@@ -1,0 +1,6 @@
+numpy==1.23.5
+scikit-learn==1.2.2
+tensorflow==2.12.0
+streamlit==1.15.0
+altair==4.0
+opencv-python==4.7.0.72
