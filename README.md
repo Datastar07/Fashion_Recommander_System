@@ -61,18 +61,19 @@ pip install -r requirements.txt
 ~~~
 
 ## Usage
-First of all you need to download the datatset from this link and put all the [images][identifier] images into this images folder.
+First of all you need to download the datatset from this link and put all the [images](https://github.com/Datastar07/Fashion_Recommander_System/tree/main/images) images into this images folder.
  
 ## Dataset Link:
 [Kaggle Dataset Big size 25 GB](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
 
 [Kaggle Dataset Small size 572 MB](https://www.kaggle.com/paramaggarwal/fashion-product-images-small)
-[identifier]:[https://github.com/Datastar07/Fashion_Recommander_System/tree/main/images]
+
 
 For extracting the feature from the image you need to run this line:
 ```bash
 python Extracting_feature.py
 ```
+
 After generating the features.pkl file you need to run below line for showing the result on the web app,
 To run the web server, simply execute streamlit with the main recommender app:
 
